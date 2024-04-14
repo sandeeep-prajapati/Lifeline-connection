@@ -1,0 +1,80 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0ffff; 
+  }
+  
+  #login-page, #dashboard {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto; 
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  #login-form {
+    text-align: center;
+  }
+  
+  #login-form input {
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #login-form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #login-form button:hover {
+    background-color: #45a049;
+  }
+  
+  #dashboard {
+    display: none;
+  }
+  
+  #user-details, #reports, #about-doctors {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  #user-details p, #reports li, #about-doctors p {
+    margin: 10px 0;
+  }
+  
+  #logout-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3665f4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #logout-btn:hover {
+    background-color: #2f55d3;
+  }
+  
